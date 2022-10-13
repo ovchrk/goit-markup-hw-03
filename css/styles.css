@@ -1,0 +1,216 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+/* GENERAL selectors*/
+:root {
+    --brand-color: #2196F3;
+    --brand-black-color: #212121;
+    --color-background:#FFF;
+    --color-background-second: #2F303A;
+    --color-text: #757575;
+    --color-links: rgba(255, 255, 255, 0.6);
+    --main-font: 'Roboto', Arial, Helvetica, sans-serif;
+    --font-logo: 'Raleway', Arial, Helvetica, sans-serif;
+    --main-letter-spacing: 0.03em;
+    --second-letter-spacing: 0.06em;
+
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    color: var(--brand-black-color);
+    background-color: var(--color-background);
+    
+    font-family: var(--main-font);
+    letter-spacing: var(--main-letter-spacing);
+}
+
+
+/* Шапка */
+.logo {
+    color: var(--brand-black-color);
+    
+    text-decoration: none;
+    font-family: var(--font-logo);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.logo-blue {
+    color: var(--brand-color);
+}
+
+.link {
+    color: var(--brand-black-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+/* hover and focus for links */
+.link:hover, .link:focus {
+    color: var(--brand-color);
+}
+.contacts .link {
+    color: var(--color-text);
+}
+.contacts .link:hover, .contacts .link:focus {
+    color: var(--brand-color);
+}
+
+/* Головний заголовок */
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3;
+    letter-spacing: var(--second-letter-spacing);
+    color: var(--color-background); 
+    text-transform: uppercase;
+
+    background-color: var(--color-background-second);
+}
+/* Button Замовити послугу */
+.hero-button {
+    border: none;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+    letter-spacing: var(--second-letter-spacing);
+    color: var(--brand-black-color);
+    background-color: var(--color-background);
+}
+.hero-button:hover, .hero-button:focus {
+    color: var(--color-background);
+    background-color: var(--brand-color);
+}
+
+/* Наші переваги*/
+
+.hidden-title {
+    display: none;
+}
+.advantages {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--brand-black-color);
+}
+.advantages-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+
+    color: var(--color-text);
+}
+/* Чим ми займаємось*/
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+    color: var(--brand-black-color);
+}
+/* Наша команда*/
+.team {
+    background-color: var(--color-background);
+}
+.member-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+
+    color: var(--brand-black-color);
+}
+.member-position {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+
+    color: var(--color-text);
+}
+/* Footer */
+.information {
+    background-color: var(--color-background-second);
+}
+.logo-light {
+    font-family: var(--font-logo);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
+    color: var(--color-background);
+}
+.bottom-information {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    
+    color: var(--color-background);
+}
+.bottom-link {
+    font-size: 14px;
+    line-height: 1.7;
+
+    color: var(--color-links);
+}
+.bottom-link:hover {
+    color: var(--brand-color);
+}
+
+.bottom-link:focus {
+    color: var(--brand-color);
+}
+
+/*portfolio*/
+
+.button:hover, .button:focus {
+    background-color: var(--brand-color);
+    color: var(--color-background);
+}
+
+.button {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: var(--main-letter-spacing);
+
+    background-color: var(--color-background);
+    color: var(--brand-black-color);
+    border: none;
+}
+
+.examples-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: var(--second-letter-spacing);
+
+    color: var(--brand-black-color);
+}
+.examples-text {
+    font-size: 16px;
+    line-height: 1.8;
+    
+    color: var(--color-background-second);
+}
