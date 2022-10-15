@@ -369,11 +369,17 @@ ul {
     
     color: var(--color-text);
 }
-
+.examples-name {
+    display: inline-block;
+    margin: 20px 24px 4px 24px;
+}
+.description {
+    margin: 0px 24px 20px 24px;
+}
 .section-exmpl {
-    width: 1230px;
+    margin-left: auto;
     margin-right: auto;
-    margin-left: auto; 
+    width: 1200px;
 }
 .section {
     margin-left: auto;
