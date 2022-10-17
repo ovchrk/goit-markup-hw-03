@@ -9,11 +9,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link href="./css/styles.css" rel="stylesheet">
 </head>
-<body class="container">
-    <!--Шапка-->
+<body>
     <header>
-        <div class="container">
-            <section class="section-upper">
+        <section class="section-upper">
+            <div class="container">
                 <nav class="main-nav">
                     <a href="./index.html" class="logo"><span class="logo-blue">Web</span>Studio</a>
                     <ul class="social-links">
@@ -26,13 +25,13 @@
                         <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
                     </ul>
                 </nav>
-            </section>
-        </div>
+            </div>
+        </section>
     </header>
     <main>
         <!--Приклади робіт-->
-        <div class="container">
-            <section class="section-buttons">
+        <section class="section-exmpl">
+            <div class="container">
                 <h1 class="hidden-title">Приклади робіт</h1>
                 <!--Конопки\фільтр-->
                 <ul class="buttons">
@@ -42,71 +41,89 @@
                     <li class="item"> <button class="button" type="button">Дизайн</button></li>
                     <li class="item"> <button class="button" type="button">Маркетинг</button></li>
                 </ul>
-            </section>
-            <section class="section-exmpl">
                 <ul class="examples">
                     <li class="item">
                         <img src="./images/img8.jpg" alt="Portfolio example" width="370" height="294">
-                        <h2 class="examples-name">Технокряк</h2>
-                        <p class="description">Веб-сайт</p>
+                        <div class="item-info">
+                            <h2 class="examples-name">Технокряк</h2>
+                            <p class="description">Веб-сайт</p>
+                        </div>
                     </li>
                     <li class="item">
                         <img src="./images/img9.jpg" alt="Portfolio example" width="370" height="294">
-                        <h2 class="examples-name">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-                        <p class="description">Дизайн</p>
+                        <div class="item-info">
+                            <h2 class="examples-name">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                            <p class="description">Дизайн</p>
+                        </div>
                     </li>
                     <li class="item">
                         <img src="./images/img10.jpg" alt="Portfolio example" width="370" height="294">
-                        <h2 class="examples-name">Ресторан <span lang="en">Seafood</span></h2>
-                        <p class="description">Додаток</p>
+                        <div class="item-info">
+                            <h2 class="examples-name">Ресторан <span lang="en">Seafood</span></h2>
+                            <p class="description">Додаток</p>
+                        </div>
+                        
                     </li>
                     <li class="item">
                         <img src="./images/img11.jpg" alt="Portfolio example" width="370" height="294">
-                        <h2 class="examples-name">Проєкт <span lang="en">Prime</span></h2>
-                        <p class="description">Маркетинг</p>
+                        <div class="item-info">
+                            <h2 class="examples-name">Проєкт <span lang="en">Prime</span></h2>
+                            <p class="description">Маркетинг</p>
+                        </div>
+                        
                     </li>
                     <li class="item">
                         <img src="./images/img12.jpg" alt="Portfolio example" width="370" height="294">
-                        <h2 class="examples-name">Проєкт <span lang="en"></span>Boxes</h2>
-                        <p class="description">Додаток</p>
+                        <div class="item-info">
+                            <h2 class="examples-name">Проєкт <span lang="en"></span>Boxes</h2>
+                            <p class="description">Додаток</p>
+                        </div>
+                    
                     </li>
                     <li class="item">
                         <img src="./images/img13.jpg" alt="Portfolio example" width="370" height="294">
-                        <h2 class="examples-name" lang="en">Inspiration has no Borders</h2>
-                        <p class="description">Веб-сайт</p>
+                        <div class="item-info">
+                            <h2 class="examples-name" lang="en">Inspiration has no Borders</h2>
+                            <p class="description">Веб-сайт</p>
+                        </div>
                     </li>
                     <li class="item">
                         <img src="./images/img14.jpg" alt="Portfolio example" width="370" height="294">
-                        <h2 class="examples-name">Видання <span lang="en">Limited Edition</span></h2>
-                        <p class="description">Дизайн</p>
+                        <div class="item-info">
+                            <h2 class="examples-name">Видання <span lang="en">Limited Edition</span></h2>
+                            <p class="description">Дизайн</p>
+                        </div>
                     </li>
                     <li class="item">
                         <img src="./images/img15.jpg" alt="Portfolio example" width="370" height="294">
-                        <h2 class="examples-name">Проєкт <abbr lang="en">LAB</abbr></h2>
-                        <p class="description">Маркетинг</p>
+                        <div class="item-info">
+                            <h2 class="examples-name">Проєкт <abbr lang="en">LAB</abbr></h2>
+                            <p class="description">Маркетинг</p>
+                        </div>
                     </li>
                     <li class="item">
                         <img src="./images/img16.jpg" alt="Portfolio example" width="370" height="294">
-                        <h2 class="examples-name" lang="en">Growing Business</h2>
-                        <p class="description">Додаток</p>
+                        <div class="item-info">
+                            <h2 class="examples-name" lang="en">Growing Business</h2>
+                            <p class="description">Додаток</p>
+                        </div>
+                        
                     </li>
                 </ul>
-            </section>
-        </div>
-    </main> 
+            </div>
+        </section>
+    </main>
     <!--Footer-->
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <section class="bottom-section">
-                <a href="./index.html" class="logo-light"><span class="logo-blue">Web</span>Studio</a>
-                <address>
-                    <ul class="bottom-information">
-                        <li class="item">м. Київ, пр-т Лесі Українки, 26</li>
-                        <li class="item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                        <li class="item"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-                    </ul>
-                </address>
-            </section>
+            <a href="./index.html" class="logo-light"><span class="logo-blue">Web</span>Studio</a>
+            <address>
+                <ul class="bottom-information">
+                    <li class="item">м. Київ, пр-т Лесі Українки, 26</li>
+                    <li class="item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="item"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
         </div>
     </footer>
 </body>

@@ -48,8 +48,6 @@ ul {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    padding-right: 15px;
-    padding-left: 15px;
 }
 .main-nav {
     display: flex;
@@ -94,7 +92,7 @@ ul {
 }*/
 
 /* hover and focus for links */
-.link:hover, .link:focus {
+.link:hover, .link:focus, .link:active {
     color: var(--brand-color);
 }
 .contacts {
@@ -120,10 +118,13 @@ ul {
     text-align: center;
     background-color: #2F303A;
     padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 
 .section-hero .hero-title {
+    margin-top: 0;
+    margin-bottom: 40px;
     max-width: 696px;
     text-align: center;
     margin-right: auto;
@@ -148,10 +149,6 @@ ul {
     line-height: 1.8;
     text-align: center;
     letter-spacing: var(--second-letter-spacing);
-    color: var(--brand-black-color);
-    background-color: var(--color-background);
-}
-.section-hero button:hover, .hero button:focus {
     color: var(--color-background);
     background-color: var(--brand-color);
 }
@@ -165,7 +162,6 @@ ul {
 .advantages {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 94px;
 }
 
 .advantages .item {
@@ -217,8 +213,6 @@ ul {
 }
 .team-section {
     background-color: #F5F4FA;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 94px;
@@ -233,7 +227,7 @@ ul {
     border-radius: 0px 0px 4px 4px;
 }
 .team .member:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .team h3 {
@@ -252,18 +246,24 @@ ul {
 
     color: var(--color-text);
 }
+.member-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.member-info h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
 
 /* Footer */
-.bottom-section {
+.footer {
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
     display: block;
     background-color: var(--color-background-second);
     padding-top: 60px;
-    padding-right: 15px;
     padding-bottom: 60px;
-    padding-left: 15px;
 }
 .logo-light {
     display: inline-block;
@@ -312,6 +312,7 @@ ul {
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .buttons .item {
     display: inline-block;
@@ -323,6 +324,7 @@ ul {
 .button:hover, .button:focus {
     background-color: var(--brand-color);
     color: var(--color-background);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button {
@@ -336,7 +338,6 @@ ul {
     background-color: #F5F4FA;
     color: var(--brand-black-color);
     border: none;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     padding: 6px 22px;
 }
@@ -354,7 +355,9 @@ ul {
 .examples .item:nth-child(3n) {
     margin-right: 0;
 }
-.examples h2 {
+.examples .examples-name {
+    display: inline-block;
+    margin: 0 0 4px 0;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -362,43 +365,29 @@ ul {
 
     color: var(--brand-black-color);
 }
-.examples p {
+.examples .description {
     font-size: 16px;
     line-height: 1.8;
-    
+    margin: 0;
     color: var(--color-text);
 }
-.examples-name {
-    display: inline-block;
-    margin: 20px 24px 4px 24px;
+.item .item-info {
+    padding: 20px 24px;
+
 }
-.description {
-    margin: 0px 24px 20px 24px;
-}
+
 .section-exmpl {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    padding-right: 15px;
+    padding-top: 94px;
     padding-bottom: 94px;
-    padding-left: 15px;
 }
-.section-buttons {
-    margin-left: auto;
-        margin-right: auto;
-        width: 1200px;
-        padding-right: 15px;
-        padding-bottom: 50px;
-        padding-left: 15px;
-        padding-top: 94px;
 
-}
 .section {
     margin-left: auto;
         margin-right: auto;
         width: 1200px;
-        padding-right: 15px;
-        padding-left: 15px;
         padding-top: 94px;
         padding-bottom: 94px;
 }
@@ -406,8 +395,6 @@ ul {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    padding-right: 15px;
-    padding-left: 15px;
     padding-bottom: 94px;
 }
 .activity {
@@ -419,9 +406,9 @@ ul {
 }
 .container {
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;  
 }
 /*Positioning*/
 
